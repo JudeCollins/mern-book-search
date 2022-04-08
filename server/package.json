@@ -4,12 +4,15 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.js",
     "watch": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jude Collins",
   "license": "ISC",
+  "engines":{
+    "node": "v16.13.1"
+  },
   "dependencies": {
     "apollo-server-express": "^3.6.7",
     "bcrypt": "^5.0.1",
